@@ -1,0 +1,3327 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/25.6.1/bin/node",
+      "/private/tmp/slopdotcash-hark-apv-independent-20261010/node_modules/.bin/playwright",
+      "test",
+      "tests/e2e/apv-matrix.spec.ts",
+      "--project=desktop-chromium",
+      "--workers=2",
+      "--reporter=json"
+    ],
+    "configFile": "/private/tmp/slopdotcash-hark-apv-independent-20261010/playwright.config.ts",
+    "rootDir": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 2100000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "sourceRevision": "b425030a332d6800e92eb2afde7127539d4f3f5b",
+      "server": "preview",
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "sourceRevision": "b425030a332d6800e92eb2afde7127539d4f3f5b",
+          "server": "preview",
+          "actualWorkers": 2
+        },
+        "id": "wide-desktop-chromium",
+        "name": "wide-desktop-chromium",
+        "testDir": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "sourceRevision": "b425030a332d6800e92eb2afde7127539d4f3f5b",
+          "server": "preview",
+          "actualWorkers": 2
+        },
+        "id": "desktop-chromium",
+        "name": "desktop-chromium",
+        "testDir": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "sourceRevision": "b425030a332d6800e92eb2afde7127539d4f3f5b",
+          "server": "preview",
+          "actualWorkers": 2
+        },
+        "id": "tablet-chromium",
+        "name": "tablet-chromium",
+        "testDir": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "sourceRevision": "b425030a332d6800e92eb2afde7127539d4f3f5b",
+          "server": "preview",
+          "actualWorkers": 2
+        },
+        "id": "narrow-mobile-chromium",
+        "name": "narrow-mobile-chromium",
+        "testDir": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 2,
+    "webServer": {
+      "command": "node node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 4491 --strictPort",
+      "url": "http://127.0.0.1:4491",
+      "reuseExistingServer": true,
+      "timeout": 120000,
+      "stdout": "pipe",
+      "stderr": "pipe"
+    }
+  },
+  "suites": [
+    {
+      "title": "apv-matrix.spec.ts",
+      "file": "apv-matrix.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "M01 current x solana x ok",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4515,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:20.751Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M01-current-x-solana-x-ok-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-f38faaf962ed506de0bd",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M02 current x solana x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown+baseUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4525,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:20.762Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown+baseUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M02-current-x-solana-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-d22e2466b722af662bf3",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M03 current x solana x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3897,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:25.776Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M03-current-x-solana-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-bf85844fcfd68cd4f313",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M04 current x base x ok",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "baseShown"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3959,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:25.780Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "baseShown"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M04-current-x-base-x-ok-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-40002e6ad210f9df8d02",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M05 current x base x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3809,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:29.682Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M05-current-x-base-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-42e94a79ffdd7badfa25",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M06 current x base x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "baseShown+solanaUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3924,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:29.750Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "baseShown+solanaUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M06-current-x-base-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-5fc288222d6ce43b0a58",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M07 current x both x ok",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown+baseShown"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3574,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:33.497Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown+baseShown"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M07-current-x-both-x-ok-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-c0e79531901c14b9fd39",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M08 current x both x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown+baseUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3602,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:33.682Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown+baseUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M08-current-x-both-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-85f7f85e029ae8165095",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M09 current x both x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "baseShown+solanaUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3277,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:37.081Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "baseShown+solanaUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M09-current-x-both-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-815f387ea4932cf58e8f",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M10 current x none x ok",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3994,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:37.292Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M10-current-x-none-x-ok-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-84c2697300524f469150",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M11 current x none x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3302,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:40.365Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M11-current-x-none-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-8e3c248bc1a34d83aad3",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M12 current x none x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3866,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:41.293Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M12-current-x-none-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-478711cb4bc93df503ec",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M13 frozen-only x solana x ok",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3328,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:43.674Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M13-frozen-only-x-solana-x-ok-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-b8b7c30284d289ffd3b4",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M14 frozen-only x solana x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown+baseUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4048,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:45.166Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown+baseUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M14-frozen-only-x-solana-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-184ebe5aaf61315d1fe4",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M15 frozen-only x solana x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3436,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:47.017Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M15-frozen-only-x-solana-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-22324f78b2e723e766a1",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M16 frozen-only x base x ok",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "baseShown"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3943,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:49.225Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "baseShown"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M16-frozen-only-x-base-x-ok-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-3e6b3bde68045c6b8103",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M17 frozen-only x base x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4021,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:50.466Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M17-frozen-only-x-base-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-cbb7ce59d4a9c9d1ae34",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M18 frozen-only x base x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "baseShown+solanaUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3861,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:53.178Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "baseShown+solanaUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M18-frozen-only-x-base-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-84f3a813a29ef69f259d",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M19 frozen-only x both x ok",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown+baseShown"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3917,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:54.503Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown+baseShown"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M19-frozen-only-x-both-x-ok-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-a032d814e326c1222a10",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M20 frozen-only x both x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown+baseUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3447,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:57.049Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown+baseUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M20-frozen-only-x-both-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-5a2a0e2d3288d97d656e",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M21 frozen-only x both x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "baseShown+solanaUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3679,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:07:58.432Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "baseShown+solanaUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M21-frozen-only-x-both-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-47257d729c89e53a39f2",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M22 frozen-only x none x ok",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4336,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:00.509Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M22-frozen-only-x-none-x-ok-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-d80a0d3b93bec4662a1e",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M23 frozen-only x none x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4378,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:02.121Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M23-frozen-only-x-none-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-7f49dffd55a01c124556",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M24 frozen-only x none x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4647,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:04.863Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M24-frozen-only-x-none-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-0f3118d4417489ddac9a",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M25 renamed x solana x ok",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 4788,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:06.510Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M25-renamed-x-solana-x-ok-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M25-renamed-x-solana-x-ok-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M25-renamed-x-solana-x-ok-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M25-renamed-x-solana-x-ok-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-f52a715e9c7871fde458",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M26 renamed x solana x base-503",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 4515,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:09.521Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M26-renamed-x-solana-x-base-503-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M26-renamed-x-solana-x-base-503-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M26-renamed-x-solana-x-base-503-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M26-renamed-x-solana-x-base-503-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-996bd65c1d0cd82f9c5f",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M27 renamed x solana x solana-timeout",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 4563,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:12.629Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M27-renamed-x-solana-x-solana-timeout-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M27-renamed-x-solana-x-solana-timeout-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M27-renamed-x-solana-x-solana-timeout-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M27-renamed-x-solana-x-solana-timeout-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-324a5467b947b0c987bc",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M28 renamed x base x ok",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 4695,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:15.210Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M28-renamed-x-base-x-ok-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M28-renamed-x-base-x-ok-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M28-renamed-x-base-x-ok-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M28-renamed-x-base-x-ok-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-e2cbdec5fcb0499e245f",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M29 renamed x base x base-503",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 4679,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:18.455Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M29-renamed-x-base-x-base-503-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M29-renamed-x-base-x-base-503-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M29-renamed-x-base-x-base-503-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M29-renamed-x-base-x-base-503-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-b5ac56ed3ed202365191",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M30 renamed x base x solana-timeout",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 4372,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:21.315Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M30-renamed-x-base-x-solana-timeout-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M30-renamed-x-base-x-solana-timeout-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M30-renamed-x-base-x-solana-timeout-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M30-renamed-x-base-x-solana-timeout-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-a56b34f8319f6131e1b6",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M31 renamed x both x ok",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 4053,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:24.367Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M31-renamed-x-both-x-ok-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M31-renamed-x-both-x-ok-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M31-renamed-x-both-x-ok-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M31-renamed-x-both-x-ok-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-5f0b6c51c0d32cafad0b",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M32 renamed x both x base-503",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 4349,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:26.933Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M32-renamed-x-both-x-base-503-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M32-renamed-x-both-x-base-503-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M32-renamed-x-both-x-base-503-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M32-renamed-x-both-x-base-503-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-02e31fa248b7c13f7685",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M33 renamed x both x solana-timeout",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 4174,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:30.253Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M33-renamed-x-both-x-solana-timeout-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M33-renamed-x-both-x-solana-timeout-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M33-renamed-x-both-x-solana-timeout-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M33-renamed-x-both-x-solana-timeout-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-611a9bee8c428ea2d47c",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M34 renamed x none x ok",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 4722,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:32.533Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M34-renamed-x-none-x-ok-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M34-renamed-x-none-x-ok-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M34-renamed-x-none-x-ok-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M34-renamed-x-none-x-ok-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-8af1322cb2a2f91e9232",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M35 renamed x none x base-503",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5181,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:35.776Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M35-renamed-x-none-x-base-503-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M35-renamed-x-none-x-base-503-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M35-renamed-x-none-x-base-503-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M35-renamed-x-none-x-base-503-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-08f8dfca2fbccf367005",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M36 renamed x none x solana-timeout",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 5014,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:38.471Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M36-renamed-x-none-x-solana-timeout-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M36-renamed-x-none-x-solana-timeout-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M36-renamed-x-none-x-solana-timeout-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M36-renamed-x-none-x-solana-timeout-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-3f6b7f97bd5773908e12",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M37 mismatch x solana x ok",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3956,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:42.185Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M37-mismatch-x-solana-x-ok-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M37-mismatch-x-solana-x-ok-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M37-mismatch-x-solana-x-ok-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M37-mismatch-x-solana-x-ok-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-f372db02b6b83c1faea6",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M38 mismatch x solana x base-503",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown+baseUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 3984,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseUnavailable\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseUnavailable\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseUnavailable\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:44.705Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown+baseUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M38-mismatch-x-solana-x-base-503-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M38-mismatch-x-solana-x-base-503-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M38-mismatch-x-solana-x-base-503-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M38-mismatch-x-solana-x-base-503-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-c19bf9838ff384020a08",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M39 mismatch x solana x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3671,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:47.422Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M39-mismatch-x-solana-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-c5c83504c9477174f419",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M40 mismatch x base x ok",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "baseShown"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 4233,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:49.813Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "baseShown"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M40-mismatch-x-base-x-ok-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M40-mismatch-x-base-x-ok-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M40-mismatch-x-base-x-ok-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M40-mismatch-x-base-x-ok-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-5fc6bd0b3fdd590d0f16",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M41 mismatch x base x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3437,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:51.251Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M41-mismatch-x-base-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-b576aa81b8ec92b54433",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M42 mismatch x base x solana-timeout",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "baseShown+solanaUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3951,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[31m+   \"solanaUnavailable\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[31m+   \"solanaUnavailable\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[31m+   \"solanaUnavailable\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:54.696Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "baseShown+solanaUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M42-mismatch-x-base-x-solana-timeout-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M42-mismatch-x-base-x-solana-timeout-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M42-mismatch-x-base-x-solana-timeout-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M42-mismatch-x-base-x-solana-timeout-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-a47d240d726ccc87a578",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M43 mismatch x both x ok",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown+baseShown"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 3994,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:55.419Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown+baseShown"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M43-mismatch-x-both-x-ok-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M43-mismatch-x-both-x-ok-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M43-mismatch-x-both-x-ok-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M43-mismatch-x-both-x-ok-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-b23fafa367c4464815ff",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M44 mismatch x both x base-503",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "solanaShown+baseUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3619,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseUnavailable\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseUnavailable\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseUnavailable\",\u001b[39m\n\u001b[31m+   \"solanaShown\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:08:59.608Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "solanaShown+baseUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M44-mismatch-x-both-x-base-503-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M44-mismatch-x-both-x-base-503-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M44-mismatch-x-both-x-base-503-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M44-mismatch-x-both-x-base-503-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-f0eb67017215912c2e90",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M45 mismatch x both x solana-timeout",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "baseShown+solanaUnavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 18,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 4679,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[31m+   \"solanaUnavailable\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[31m+   \"solanaUnavailable\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 2\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"baseShown\",\u001b[39m\n\u001b[31m+   \"solanaUnavailable\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:09:00.834Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "baseShown+solanaUnavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M45-mismatch-x-both-x-solana-timeout-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M45-mismatch-x-both-x-solana-timeout-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M45-mismatch-x-both-x-solana-timeout-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M45-mismatch-x-both-x-solana-timeout-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-7600b1fe72cb78c1bbbf",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M46 mismatch x none x ok",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "none"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 19,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 3985,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29",
+                    "location": {
+                      "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                      "column": 29,
+                      "line": 254
+                    },
+                    "snippet": "  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                        "column": 29,
+                        "line": 254
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   \"unavailable\",\u001b[39m\n\u001b[31m+   \"none\",\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  252 |       description: observed.join(\"+\") || \"nothing\",\n  253 |     });\n> 254 |     expect(observed.sort()).toEqual([...want].sort());\n      |                             ^\n  255 |   });\n  256 | }\n  257 |\n    at /private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts:254:29"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:09:04.395Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "none"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M46-mismatch-x-none-x-ok-desktop-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M46-mismatch-x-none-x-ok-desktop-chromium/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M46-mismatch-x-none-x-ok-desktop-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M46-mismatch-x-none-x-ok-desktop-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/private/tmp/slopdotcash-hark-apv-independent-20261010/tests/e2e/apv-matrix.spec.ts",
+                    "column": 29,
+                    "line": 254
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-60f90204c56111332722",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M47 mismatch x none x base-503",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 20,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3519,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:09:06.709Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M47-mismatch-x-none-x-base-503-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-dd9c81fbb8b32dade0d5",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        },
+        {
+          "title": "M48 mismatch x none x solana-timeout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "observed",
+                  "description": "unavailable"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "desktop-chromium",
+              "projectName": "desktop-chromium",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3267,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-10T09:09:09.516Z",
+                  "annotations": [
+                    {
+                      "type": "observed",
+                      "description": "unavailable"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/private/tmp/slopdotcash-hark-apv-independent-20261010/test-results/preview/apv-matrix-M48-mismatch-x-none-x-solana-timeout-desktop-chromium/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "76d350507c1ed9f333bb-fd7ee01fa9bd4080fec9",
+          "file": "apv-matrix.spec.ts",
+          "line": 224,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-10T09:07:19.970Z",
+    "duration": 113019.884,
+    "expected": 28,
+    "skipped": 0,
+    "unexpected": 20,
+    "flaky": 0
+  }
+}

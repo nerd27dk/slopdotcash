@@ -1,0 +1,387 @@
+$ bun run prepare:publication
+$ node scripts/prepare-publication.mjs
+Skill is valid!
+[shared-brand] synced into /private/tmp/slopdotcash-hark-apv-independent-20261010/public: logos, favicons, ogembeds
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-eliza-package-8qOoXz/contribute-to-eliza
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-eliza-package-8qOoXz/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-eliza/PROVENANCE.json
+  Added: contribute-to-eliza/SKILL.md
+  Added: contribute-to-eliza/agents/openai.yaml
+  Added: contribute-to-eliza/project.json
+  Added: contribute-to-eliza/references/evidence-review-rubric.md
+  Added: contribute-to-eliza/references/mission-priorities.md
+  Added: contribute-to-eliza/references/repository-contract.md
+  Added: contribute-to-eliza/review-compatibility.json
+  Added: contribute-to-eliza/scripts/live-report.mjs
+  Added: contribute-to-eliza/scripts/review-preflight.mjs
+  Added: contribute-to-eliza/scripts/run-receipt.mjs
+  Added: contribute-to-eliza/scripts/skill-authority.d.mts
+  Added: contribute-to-eliza/scripts/skill-authority.mjs
+  Added: contribute-to-eliza/scripts/terms-preflight.mjs
+  Added: contribute-to-eliza/scripts/wallet-claim.mjs
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-eliza-package-8qOoXz/downloads/contribute-to-eliza.skill
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-eliza-contributions-package-2hNpdp/review-eliza-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-eliza-contributions-package-2hNpdp/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-eliza-contributions/PROVENANCE.json
+  Added: review-eliza-contributions/SKILL.md
+  Added: review-eliza-contributions/agents/openai.yaml
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-eliza-contributions-package-2hNpdp/downloads/review-eliza-contributions.skill
+[Slop] prepared review-eliza-contributions.skill (e1db28845cd4) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-asi-package-6ixr4C/contribute-to-asi
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-asi-package-6ixr4C/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-asi/PROVENANCE.json
+  Added: contribute-to-asi/SKILL.md
+  Added: contribute-to-asi/agents/openai.yaml
+  Added: contribute-to-asi/project.json
+  Added: contribute-to-asi/references/evidence-review-rubric.md
+  Added: contribute-to-asi/references/repository-contract.md
+  Added: contribute-to-asi/scripts/live-report.mjs
+  Added: contribute-to-asi/scripts/run-receipt.mjs
+  Added: contribute-to-asi/scripts/skill-authority.d.mts
+  Added: contribute-to-asi/scripts/skill-authority.mjs
+  Added: contribute-to-asi/scripts/terms-preflight.mjs
+  Added: contribute-to-asi/scripts/wallet-claim.mjs
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-asi-package-6ixr4C/downloads/contribute-to-asi.skill
+[Slop] prepared contribute-to-asi.skill (8d8a42e16a9c) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-asi-contributions-package-A5VaU5/review-asi-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-asi-contributions-package-A5VaU5/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-asi-contributions/PROVENANCE.json
+  Added: review-asi-contributions/SKILL.md
+  Added: review-asi-contributions/agents/openai.yaml
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-asi-contributions-package-A5VaU5/downloads/review-asi-contributions.skill
+[Slop] prepared review-asi-contributions.skill (9303f1a66894) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-darling-arm64-package-IKvyAE/contribute-to-darling-arm64
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-darling-arm64-package-IKvyAE/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-darling-arm64/PROVENANCE.json
+  Added: contribute-to-darling-arm64/SKILL.md
+  Added: contribute-to-darling-arm64/agents/openai.yaml
+  Added: contribute-to-darling-arm64/project.json
+  Added: contribute-to-darling-arm64/references/evidence-contract.md
+  Added: contribute-to-darling-arm64/references/repository-contract.md
+  Added: contribute-to-darling-arm64/scripts/live-report.mjs
+  Added: contribute-to-darling-arm64/scripts/run-receipt.mjs
+  Added: contribute-to-darling-arm64/scripts/skill-authority.d.mts
+  Added: contribute-to-darling-arm64/scripts/skill-authority.mjs
+  Added: contribute-to-darling-arm64/scripts/terms-preflight.mjs
+  Added: contribute-to-darling-arm64/scripts/wallet-claim.mjs
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-darling-arm64-package-IKvyAE/downloads/contribute-to-darling-arm64.skill
+[Slop] prepared contribute-to-darling-arm64.skill (ae824b06c094) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-darling-arm64-contributions-package-KQV07y/review-darling-arm64-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-darling-arm64-contributions-package-KQV07y/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-darling-arm64-contributions/PROVENANCE.json
+  Added: review-darling-arm64-contributions/SKILL.md
+  Added: review-darling-arm64-contributions/agents/openai.yaml
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-darling-arm64-contributions-package-KQV07y/downloads/review-darling-arm64-contributions.skill
+[Slop] prepared review-darling-arm64-contributions.skill (855def3bc337) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-heir-desk-sdk-package-KzoeHm/contribute-to-heir-desk-sdk
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-heir-desk-sdk-package-KzoeHm/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-heir-desk-sdk/PROVENANCE.json
+  Added: contribute-to-heir-desk-sdk/SKILL.md
+  Added: contribute-to-heir-desk-sdk/agents/openai.yaml
+  Added: contribute-to-heir-desk-sdk/project.json
+  Added: contribute-to-heir-desk-sdk/references/evidence-review-rubric.md
+  Added: contribute-to-heir-desk-sdk/references/repository-contract.md
+  Added: contribute-to-heir-desk-sdk/scripts/live-report.mjs
+  Added: contribute-to-heir-desk-sdk/scripts/run-receipt.mjs
+  Added: contribute-to-heir-desk-sdk/scripts/skill-authority.d.mts
+  Added: contribute-to-heir-desk-sdk/scripts/skill-authority.mjs
+  Added: contribute-to-heir-desk-sdk/scripts/terms-preflight.mjs
+  Added: contribute-to-heir-desk-sdk/scripts/wallet-claim.mjs
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-heir-desk-sdk-package-KzoeHm/downloads/contribute-to-heir-desk-sdk.skill
+[Slop] prepared contribute-to-heir-desk-sdk.skill (c79f7f03b046) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-heir-desk-sdk-contributions-package-aMhnY8/review-heir-desk-sdk-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-heir-desk-sdk-contributions-package-aMhnY8/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-heir-desk-sdk-contributions/PROVENANCE.json
+  Added: review-heir-desk-sdk-contributions/SKILL.md
+  Added: review-heir-desk-sdk-contributions/agents/openai.yaml
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-heir-desk-sdk-contributions-package-aMhnY8/downloads/review-heir-desk-sdk-contributions.skill
+[Slop] prepared review-heir-desk-sdk-contributions.skill (d49770fcb6c5) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-heir-elements-sdk-package-k6Sni2/contribute-to-heir-elements-sdk
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-heir-elements-sdk-package-k6Sni2/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-heir-elements-sdk/PROVENANCE.json
+  Added: contribute-to-heir-elements-sdk/SKILL.md
+  Added: contribute-to-heir-elements-sdk/agents/openai.yaml
+  Added: contribute-to-heir-elements-sdk/project.json
+  Added: contribute-to-heir-elements-sdk/references/evidence-review-rubric.md
+  Added: contribute-to-heir-elements-sdk/references/repository-contract.md
+  Added: contribute-to-heir-elements-sdk/scripts/live-report.mjs
+  Added: contribute-to-heir-elements-sdk/scripts/run-receipt.mjs
+  Added: contribute-to-heir-elements-sdk/scripts/skill-authority.d.mts
+  Added: contribute-to-heir-elements-sdk/scripts/skill-authority.mjs
+  Added: contribute-to-heir-elements-sdk/scripts/terms-preflight.mjs
+  Added: contribute-to-heir-elements-sdk/scripts/wallet-claim.mjs
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-heir-elements-sdk-package-k6Sni2/downloads/contribute-to-heir-elements-sdk.skill
+[Slop] prepared contribute-to-heir-elements-sdk.skill (48f2d022a27e) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-heir-elements-sdk-contributions-package-eQ02u4/review-heir-elements-sdk-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-heir-elements-sdk-contributions-package-eQ02u4/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-heir-elements-sdk-contributions/PROVENANCE.json
+  Added: review-heir-elements-sdk-contributions/SKILL.md
+  Added: review-heir-elements-sdk-contributions/agents/openai.yaml
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-heir-elements-sdk-contributions-package-eQ02u4/downloads/review-heir-elements-sdk-contributions.skill
+[Slop] prepared review-heir-elements-sdk-contributions.skill (b8fb3f5217f8) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-canonry-package-kWHGVY/contribute-to-canonry
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-canonry-package-kWHGVY/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-canonry/PROVENANCE.json
+  Added: contribute-to-canonry/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-canonry-package-kWHGVY/downloads/contribute-to-canonry.skill
+[Slop] prepared contribute-to-canonry.skill (d4d08fe8b777) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-canonry-contributions-package-hCOpwJ/review-canonry-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-canonry-contributions-package-hCOpwJ/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-canonry-contributions/PROVENANCE.json
+  Added: review-canonry-contributions/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-canonry-contributions-package-hCOpwJ/downloads/review-canonry-contributions.skill
+[Slop] prepared review-canonry-contributions.skill (ad45fab63ddd) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-delta-star-package-pmy0Dm/contribute-to-delta-star
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-delta-star-package-pmy0Dm/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-delta-star/PROVENANCE.json
+  Added: contribute-to-delta-star/SKILL.md
+  Added: contribute-to-delta-star/agents/openai.yaml
+  Added: contribute-to-delta-star/project.json
+  Added: contribute-to-delta-star/references/evidence-review-rubric.md
+  Added: contribute-to-delta-star/references/repository-contract.md
+  Added: contribute-to-delta-star/scripts/live-report.mjs
+  Added: contribute-to-delta-star/scripts/run-receipt.mjs
+  Added: contribute-to-delta-star/scripts/skill-authority.d.mts
+  Added: contribute-to-delta-star/scripts/skill-authority.mjs
+  Added: contribute-to-delta-star/scripts/terms-preflight.mjs
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-delta-star-package-pmy0Dm/downloads/contribute-to-delta-star.skill
+[Slop] prepared contribute-to-delta-star.skill (87cf0ef8d560) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-delta-star-contributions-package-963BZx/review-delta-star-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-delta-star-contributions-package-963BZx/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-delta-star-contributions/PROVENANCE.json
+  Added: review-delta-star-contributions/SKILL.md
+  Added: review-delta-star-contributions/agents/openai.yaml
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-delta-star-contributions-package-963BZx/downloads/review-delta-star-contributions.skill
+[Slop] prepared review-delta-star-contributions.skill (eda9dcc4e415) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-eliza-plugin-homonym-package-NhAfbI/contribute-to-eliza-plugin-homonym
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-eliza-plugin-homonym-package-NhAfbI/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-eliza-plugin-homonym/PROVENANCE.json
+  Added: contribute-to-eliza-plugin-homonym/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-eliza-plugin-homonym-package-NhAfbI/downloads/contribute-to-eliza-plugin-homonym.skill
+[Slop] prepared contribute-to-eliza-plugin-homonym.skill (c5b3eda44d5c) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-eliza-plugin-homonym-contributions-package-LHrJwM/review-eliza-plugin-homonym-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-eliza-plugin-homonym-contributions-package-LHrJwM/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-eliza-plugin-homonym-contributions/PROVENANCE.json
+  Added: review-eliza-plugin-homonym-contributions/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-eliza-plugin-homonym-contributions-package-LHrJwM/downloads/review-eliza-plugin-homonym-contributions.skill
+[Slop] prepared review-eliza-plugin-homonym-contributions.skill (bad551e3836e) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-monna-agent-permission-diff-package-BhyreW/contribute-to-monna-agent-permission-diff
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-monna-agent-permission-diff-package-BhyreW/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-monna-agent-permission-diff/PROVENANCE.json
+  Added: contribute-to-monna-agent-permission-diff/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-monna-agent-permission-diff-package-BhyreW/downloads/contribute-to-monna-agent-permission-diff.skill
+[Slop] prepared contribute-to-monna-agent-permission-diff.skill (eebdf447f684) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-monna-agent-permission-diff-contributions-package-g7AhAn/review-monna-agent-permission-diff-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-monna-agent-permission-diff-contributions-package-g7AhAn/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-monna-agent-permission-diff-contributions/PROVENANCE.json
+  Added: review-monna-agent-permission-diff-contributions/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-monna-agent-permission-diff-contributions-package-g7AhAn/downloads/review-monna-agent-permission-diff-contributions.skill
+[Slop] prepared review-monna-agent-permission-diff-contributions.skill (77dff79b13d4) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-monna-visual-strategy-canvas-package-HbKm3M/contribute-to-monna-visual-strategy-canvas
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-monna-visual-strategy-canvas-package-HbKm3M/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-monna-visual-strategy-canvas/PROVENANCE.json
+  Added: contribute-to-monna-visual-strategy-canvas/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-monna-visual-strategy-canvas-package-HbKm3M/downloads/contribute-to-monna-visual-strategy-canvas.skill
+[Slop] prepared contribute-to-monna-visual-strategy-canvas.skill (0c7699e3747a) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-monna-visual-strategy-canvas-contributions-package-HsPued/review-monna-visual-strategy-canvas-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-monna-visual-strategy-canvas-contributions-package-HsPued/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-monna-visual-strategy-canvas-contributions/PROVENANCE.json
+  Added: review-monna-visual-strategy-canvas-contributions/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-monna-visual-strategy-canvas-contributions-package-HsPued/downloads/review-monna-visual-strategy-canvas-contributions.skill
+[Slop] prepared review-monna-visual-strategy-canvas-contributions.skill (6ed751a0dd5c) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-nurosos-package-l0cvX5/contribute-to-nurosos
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-nurosos-package-l0cvX5/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-nurosos/PROVENANCE.json
+  Added: contribute-to-nurosos/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-nurosos-package-l0cvX5/downloads/contribute-to-nurosos.skill
+[Slop] prepared contribute-to-nurosos.skill (0735b2f2ff66) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-nurosos-contributions-package-zOjxr8/review-nurosos-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-nurosos-contributions-package-zOjxr8/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-nurosos-contributions/PROVENANCE.json
+  Added: review-nurosos-contributions/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-nurosos-contributions-package-zOjxr8/downloads/review-nurosos-contributions.skill
+[Slop] prepared review-nurosos-contributions.skill (583382751fb8) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-payzcode-ai-package-lf0aYa/contribute-to-payzcode-ai
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-payzcode-ai-package-lf0aYa/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: contribute-to-payzcode-ai/PROVENANCE.json
+  Added: contribute-to-payzcode-ai/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/contribute-to-payzcode-ai-package-lf0aYa/downloads/contribute-to-payzcode-ai.skill
+[Slop] prepared contribute-to-payzcode-ai.skill (b0b573d92a79) from b425030a332d
+Packaging skill: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-payzcode-ai-contributions-package-kZjL7h/review-payzcode-ai-contributions
+   Output directory: /var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-payzcode-ai-contributions-package-kZjL7h/downloads
+
+Validating skill...
+[OK] Skill is valid!
+
+  Added: review-payzcode-ai-contributions/PROVENANCE.json
+  Added: review-payzcode-ai-contributions/SKILL.md
+
+[OK] Successfully packaged skill to: /private/var/folders/qb/c6cv28v13kl9wpyvs42b536w0000gn/T/review-payzcode-ai-contributions-package-kZjL7h/downloads/review-payzcode-ai-contributions.skill
+[Slop] prepared review-payzcode-ai-contributions.skill (917a18c8d423) from b425030a332d
+[Slop] validated 4 reward cycles
+[Slop] synchronized funding index
+Validated 1 source-bound quality review datasets.
+[Slop] prepared contribute-to-eliza.skill (27d9a9112fde) from b425030a332d
+[points] 796 contributors; 32005 historical revisions
+$ bun --bun vite build && node scripts/dist-manifest.mjs create dist
+vite v8.2.1 building client environment for production...
+[2Ktransforming...✓ 1914 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/assets/jetbrains-mono-cyrillic-ext-700-normal-D6iG63UR.woff2        1.15 kB
+dist/assets/jetbrains-mono-cyrillic-ext-500-normal-C9ShMxGR.woff2        1.17 kB
+dist/assets/jetbrains-mono-cyrillic-ext-700-normal-iEXTdOVf.woff         1.72 kB
+dist/assets/jetbrains-mono-cyrillic-ext-500-normal-CEVyPk4Y.woff         1.74 kB
+dist/index.html                                                          2.19 kB │ gzip:   0.74 kB
+dist/assets/jetbrains-mono-vietnamese-700-normal-k5PzE07T.woff2          3.99 kB
+dist/assets/jetbrains-mono-vietnamese-500-normal-BvH7FW2L.woff2          4.04 kB
+dist/assets/jetbrains-mono-greek-500-normal-JpySY46c.woff2               4.28 kB
+dist/assets/jetbrains-mono-greek-700-normal-C6CZE3T8.woff2               4.30 kB
+dist/assets/jetbrains-mono-cyrillic-700-normal-BWTpRfYl.woff2            5.33 kB
+dist/assets/jetbrains-mono-cyrillic-500-normal-DmUKJPL_.woff2            5.35 kB
+dist/assets/jetbrains-mono-vietnamese-700-normal-BDLVIk2r.woff           5.45 kB
+dist/assets/jetbrains-mono-vietnamese-500-normal-DNRqzVM1.woff           5.47 kB
+dist/assets/jetbrains-mono-greek-700-normal-DEigVDxa.woff                5.69 kB
+dist/assets/jetbrains-mono-greek-500-normal-D7SFKleX.woff                5.72 kB
+dist/assets/jetbrains-mono-cyrillic-700-normal-CEoEElIJ.woff             7.01 kB
+dist/assets/jetbrains-mono-cyrillic-500-normal-DJqRU3vO.woff             7.02 kB
+dist/assets/jetbrains-mono-latin-ext-700-normal-CZipNAKV.woff2           7.47 kB
+dist/assets/jetbrains-mono-latin-ext-500-normal-Cut-4mMH.woff2           7.52 kB
+dist/assets/jetbrains-mono-latin-ext-700-normal-CxPITLHs.woff           10.30 kB
+dist/assets/jetbrains-mono-latin-ext-500-normal-ckzbgY84.woff           10.33 kB
+dist/assets/bricolage-grotesque-vietnamese-opsz-normal-D9N6E8K1.woff2   12.98 kB
+dist/assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2              21.83 kB
+dist/assets/jetbrains-mono-latin-700-normal-BYuf6tUa.woff2              21.90 kB
+dist/assets/jetbrains-mono-latin-500-normal-CJOVTJB7.woff               28.20 kB
+dist/assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff               28.20 kB
+dist/assets/bricolage-grotesque-latin-ext-opsz-normal-IcJDqblK.woff2    30.73 kB
+dist/assets/bricolage-grotesque-latin-opsz-normal-Cre6nC2_.woff2        76.88 kB
+dist/assets/index-DflvjeX3.css                                          81.49 kB │ gzip:  15.82 kB
+dist/assets/rolldown-runtime-CbXtAM7H.js                                 0.58 kB │ gzip:   0.36 kB
+dist/assets/browser-jQh1_glh.js                                         23.47 kB │ gzip:   8.86 kB
+dist/assets/ProjectProposalPage-C-0L263g.js                             37.28 kB │ gzip:  11.27 kB
+dist/assets/FundingReview-C1dQkxmS.js                                   64.27 kB │ gzip:  18.78 kB
+dist/assets/index-Ct-ZC0Ni.js                                          786.67 kB │ gzip: 227.36 kB
+
+✓ built in 563ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[DistManifest] Wrote 355 public files to /private/tmp/slopdotcash-hark-apv-independent-20261010/dist/deployment-manifest.json.

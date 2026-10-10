@@ -1,18 +1,26 @@
-# Leaderboard snapshot used for Nerd's PR #3 reruns
+# Reproducibility artifacts for Nerd's SlopDotCash audit
 
-This branch contains the exact public leaderboard input used for Nerd's PR #3 reruns and the independent APV matrix v2 recheck.
+This branch is an evidence archive for the independent PR #3 and APV matrix v2 recheck. It is not a product branch and must not be merged into one.
 
-- File: `data/leaderboard.json` (18039804 bytes)
+## Leaderboard input
+
+- `data/leaderboard.json` — exact public input used for Nerd's runs (18,039,804 bytes)
 - SHA-256: `9ee2ea15cda516fbb793827c2b5c9fa0afd005ca6e303bae8e18c95261260850`
-- Snapshot generated at: `2026-10-09T17:43:11.961Z`
-- Scoring window: `2026-09-04T17:24:54Z` through `2026-10-09T17:24:54Z`
-- Source repository represented: `elizaOS/eliza`
+- Generated at `2026-10-09T17:43:11.961Z`; scoring window `2026-09-04T17:24:54Z` through `2026-10-09T17:24:54Z`; source repository `elizaOS/eliza`
 
-To reproduce a run:
+## Independent recheck
 
-1. Check out the exact revision under test.
-2. Copy `data/leaderboard.json` to the ignored path `public/data/leaderboard.json`.
-3. Verify this fixture with `shasum -a 256 -c SHA256SUMS`.
-4. Run the command recorded for that revision.
+- [`independent-recheck-20261010/INDEPENDENT-RECHECK-20261010.md`](independent-recheck-20261010/INDEPENDENT-RECHECK-20261010.md) — method, revision-by-revision outcomes, environment, limits, and publication record
+- [`independent-recheck-20261010/raw-results/`](independent-recheck-20261010/raw-results/) — raw Playwright JSON results, stderr, and build logs
 
-This is Nerd's snapshot, not the different snapshot Hark used for his matrix runs. Do not merge this fixture branch into a product branch.
+The report records an independent replay of the published harness, not blind discovery of unknown defects. The matrix mocks GitHub and wallet-registry requests; it does not establish live payout behavior. See the report for the upstream matrix applicability issue and direct-route results.
+
+## Verify files
+
+From the repository root, run:
+
+```sh
+shasum -a 256 -c SHA256SUMS
+```
+
+`SHA256SUMS` covers the leaderboard input, report, and every raw result/log in this branch. This snapshot is Nerd's and is distinct from Hark's snapshot.
